@@ -17,14 +17,14 @@ typedef struct
     Paciente * paciente;
 } Cama;
 
-void freeAll(Cama * c, Paciente * p, int pacientes, int camas);
-void quePacienteEnQueCama(Cama * c, int camas);
-void llegaPaciente (Paciente ** p, Cama ** c, int*, int*);
-int cuantosPacientes(Paciente * p);
-int cuantasCamas(Cama * c);
-void borrar(Paciente ** p, int aBorrar, int * pacientes);
-void verPacientes(Paciente * p, int pacientes);
-void contarCamas(Cama * c, int camas);
+void freeAll(Cama * , Paciente * , int , int );
+void quePacienteEnQueCama(Cama *, int );
+void llegaPaciente (Paciente ** , Cama ** , int*, int*);
+int cuantosPacientes(Paciente * );
+int cuantasCamas(Cama * );
+void borrar(Paciente ** , int , int * );
+void verPacientes(Paciente * , int );
+void contarCamas(Cama * , int );
 
 main()
 {

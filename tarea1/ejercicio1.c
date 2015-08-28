@@ -19,15 +19,15 @@ typedef struct
     Persona * propietario;
 } Barco;
 
-void agregarProp(Persona ** p, Barco ** b);
-void agregarTrip(Persona ** p, Barco ** b);
-void agregarPersona(Persona ** p);
-void verPersonas(Persona *p);
-void verBarcos(Barco *b);
-int cuantosBarcos(Barco * b);
-void agregarBarco(Barco ** b);
-void borrar(Persona ** p, int aBorrar);
-void freeMemory(Persona * p, Barco * b);
+void agregarProp(Persona ** , Barco ** );
+void agregarTrip(Persona ** , Barco ** );
+void agregarPersona(Persona ** );
+void verPersonas(Persona *);
+void verBarcos(Barco *);
+int cuantosBarcos(Barco * );
+void agregarBarco(Barco ** );
+void borrar(Persona ** , int );
+void freeMemory(Persona * , Barco * );
 
 main()
 {
